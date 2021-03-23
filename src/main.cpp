@@ -47,7 +47,7 @@ void update_planets(vector<Body> &planets, float deltaTime) {
 
 int main(void) {
     srand(time(0));
-    vector<Body> planets = models::random();
+    vector<Body> planets = models::rotating();
 
     Player player(sf::Vector2f(0.0f, 0.0f), 1);
 

@@ -15,11 +15,7 @@ namespace models {
         position.x = rand() % (int) (constants::WIDTH);
         position.y = rand() % (int) (constants::HEIGHT);
 
-        sf::Vector2f speed;
-        speed.x = (rand() % 21 - 10) / 5;
-        speed.y = (rand() % 21 - 10) / 5;
-
-        Body body(position, speed, 10);
+        Body body(position, sf::Vector2f(0, 0), 10);
 
         return body;
     }
@@ -53,6 +49,32 @@ namespace models {
 
         Body hole(sf::Vector2f(-1000, -1000), sf::Vector2f(0, 0), mass);
         planets.push_back(hole);
+
+        return planets;
+    }
+
+    vector<Body> rotating(int count = 1000) {
+        float rotation_speed = .5f;
+
+        vector<Body> planets;
+
+        for (int i = 0; i < count; ++i) {
+            sf::Vector2f position;
+            position.x = rand() % (int) (constants::WIDTH);
+            position.y = rand() % (int) (constants::HEIGHT);
+
+            sf::Vector2f speed = {
+                    constants::HEIGHT / 2 - position.y,
+                    position.x - constants::WIDTH / 2
+            };
+            speed = speed / constants::HEIGHT * rotation_speed;
+
+            Body body(position, speed, 10);
+            planets.push_back(body);
+        }
+
+        Body massive(sf::Vector2f(constants::WIDTH / 2, constants::HEIGHT / 2), sf::Vector2f(0, 0), 10000);
+        planets.push_back(massive);
 
         return planets;
     }
