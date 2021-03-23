@@ -90,46 +90,46 @@ CMakeFiles/FirstTest.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FirstTest.dir/src/main.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Programs\CLionProjects\FirstTest\src\main.cpp -o CMakeFiles\FirstTest.dir\src\main.cpp.s
 
-CMakeFiles/FirstTest.dir/src/Body.cpp.obj: CMakeFiles/FirstTest.dir/flags.make
-CMakeFiles/FirstTest.dir/src/Body.cpp.obj: CMakeFiles/FirstTest.dir/includes_CXX.rsp
-CMakeFiles/FirstTest.dir/src/Body.cpp.obj: ../src/Body.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\CLionProjects\FirstTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FirstTest.dir/src/Body.cpp.obj"
-	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FirstTest.dir\src\Body.cpp.obj -c D:\Programs\CLionProjects\FirstTest\src\Body.cpp
+CMakeFiles/FirstTest.dir/src/classes/Body.cpp.obj: CMakeFiles/FirstTest.dir/flags.make
+CMakeFiles/FirstTest.dir/src/classes/Body.cpp.obj: CMakeFiles/FirstTest.dir/includes_CXX.rsp
+CMakeFiles/FirstTest.dir/src/classes/Body.cpp.obj: ../src/classes/Body.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\CLionProjects\FirstTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FirstTest.dir/src/classes/Body.cpp.obj"
+	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FirstTest.dir\src\classes\Body.cpp.obj -c D:\Programs\CLionProjects\FirstTest\src\classes\Body.cpp
 
-CMakeFiles/FirstTest.dir/src/Body.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FirstTest.dir/src/Body.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\CLionProjects\FirstTest\src\Body.cpp > CMakeFiles\FirstTest.dir\src\Body.cpp.i
+CMakeFiles/FirstTest.dir/src/classes/Body.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FirstTest.dir/src/classes/Body.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\CLionProjects\FirstTest\src\classes\Body.cpp > CMakeFiles\FirstTest.dir\src\classes\Body.cpp.i
 
-CMakeFiles/FirstTest.dir/src/Body.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FirstTest.dir/src/Body.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Programs\CLionProjects\FirstTest\src\Body.cpp -o CMakeFiles\FirstTest.dir\src\Body.cpp.s
+CMakeFiles/FirstTest.dir/src/classes/Body.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FirstTest.dir/src/classes/Body.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Programs\CLionProjects\FirstTest\src\classes\Body.cpp -o CMakeFiles\FirstTest.dir\src\classes\Body.cpp.s
 
-CMakeFiles/FirstTest.dir/src/Player.cpp.obj: CMakeFiles/FirstTest.dir/flags.make
-CMakeFiles/FirstTest.dir/src/Player.cpp.obj: CMakeFiles/FirstTest.dir/includes_CXX.rsp
-CMakeFiles/FirstTest.dir/src/Player.cpp.obj: ../src/Player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\CLionProjects\FirstTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FirstTest.dir/src/Player.cpp.obj"
-	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FirstTest.dir\src\Player.cpp.obj -c D:\Programs\CLionProjects\FirstTest\src\Player.cpp
+CMakeFiles/FirstTest.dir/src/classes/Player.cpp.obj: CMakeFiles/FirstTest.dir/flags.make
+CMakeFiles/FirstTest.dir/src/classes/Player.cpp.obj: CMakeFiles/FirstTest.dir/includes_CXX.rsp
+CMakeFiles/FirstTest.dir/src/classes/Player.cpp.obj: ../src/classes/Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\CLionProjects\FirstTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FirstTest.dir/src/classes/Player.cpp.obj"
+	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FirstTest.dir\src\classes\Player.cpp.obj -c D:\Programs\CLionProjects\FirstTest\src\classes\Player.cpp
 
-CMakeFiles/FirstTest.dir/src/Player.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FirstTest.dir/src/Player.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\CLionProjects\FirstTest\src\Player.cpp > CMakeFiles\FirstTest.dir\src\Player.cpp.i
+CMakeFiles/FirstTest.dir/src/classes/Player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FirstTest.dir/src/classes/Player.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\CLionProjects\FirstTest\src\classes\Player.cpp > CMakeFiles\FirstTest.dir\src\classes\Player.cpp.i
 
-CMakeFiles/FirstTest.dir/src/Player.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FirstTest.dir/src/Player.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Programs\CLionProjects\FirstTest\src\Player.cpp -o CMakeFiles\FirstTest.dir\src\Player.cpp.s
+CMakeFiles/FirstTest.dir/src/classes/Player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FirstTest.dir/src/classes/Player.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Programs\CLionProjects\FirstTest\src\classes\Player.cpp -o CMakeFiles\FirstTest.dir\src\classes\Player.cpp.s
 
 # Object files for target FirstTest
 FirstTest_OBJECTS = \
 "CMakeFiles/FirstTest.dir/src/main.cpp.obj" \
-"CMakeFiles/FirstTest.dir/src/Body.cpp.obj" \
-"CMakeFiles/FirstTest.dir/src/Player.cpp.obj"
+"CMakeFiles/FirstTest.dir/src/classes/Body.cpp.obj" \
+"CMakeFiles/FirstTest.dir/src/classes/Player.cpp.obj"
 
 # External object files for target FirstTest
 FirstTest_EXTERNAL_OBJECTS =
 
 FirstTest.exe: CMakeFiles/FirstTest.dir/src/main.cpp.obj
-FirstTest.exe: CMakeFiles/FirstTest.dir/src/Body.cpp.obj
-FirstTest.exe: CMakeFiles/FirstTest.dir/src/Player.cpp.obj
+FirstTest.exe: CMakeFiles/FirstTest.dir/src/classes/Body.cpp.obj
+FirstTest.exe: CMakeFiles/FirstTest.dir/src/classes/Player.cpp.obj
 FirstTest.exe: CMakeFiles/FirstTest.dir/build.make
 FirstTest.exe: C:/SFML/lib/libsfml-system-d.a
 FirstTest.exe: C:/SFML/lib/libsfml-window-d.a

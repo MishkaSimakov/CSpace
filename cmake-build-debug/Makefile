@@ -142,59 +142,59 @@ FirstTest/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTest.dir\build.make CMakeFiles/FirstTest.dir/build
 .PHONY : FirstTest/fast
 
-src/Body.obj: src/Body.cpp.obj
+src/classes/Body.obj: src/classes/Body.cpp.obj
 
-.PHONY : src/Body.obj
-
-# target to build an object file
-src/Body.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTest.dir\build.make CMakeFiles/FirstTest.dir/src/Body.cpp.obj
-.PHONY : src/Body.cpp.obj
-
-src/Body.i: src/Body.cpp.i
-
-.PHONY : src/Body.i
-
-# target to preprocess a source file
-src/Body.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTest.dir\build.make CMakeFiles/FirstTest.dir/src/Body.cpp.i
-.PHONY : src/Body.cpp.i
-
-src/Body.s: src/Body.cpp.s
-
-.PHONY : src/Body.s
-
-# target to generate assembly for a file
-src/Body.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTest.dir\build.make CMakeFiles/FirstTest.dir/src/Body.cpp.s
-.PHONY : src/Body.cpp.s
-
-src/Player.obj: src/Player.cpp.obj
-
-.PHONY : src/Player.obj
+.PHONY : src/classes/Body.obj
 
 # target to build an object file
-src/Player.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTest.dir\build.make CMakeFiles/FirstTest.dir/src/Player.cpp.obj
-.PHONY : src/Player.cpp.obj
+src/classes/Body.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTest.dir\build.make CMakeFiles/FirstTest.dir/src/classes/Body.cpp.obj
+.PHONY : src/classes/Body.cpp.obj
 
-src/Player.i: src/Player.cpp.i
+src/classes/Body.i: src/classes/Body.cpp.i
 
-.PHONY : src/Player.i
+.PHONY : src/classes/Body.i
 
 # target to preprocess a source file
-src/Player.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTest.dir\build.make CMakeFiles/FirstTest.dir/src/Player.cpp.i
-.PHONY : src/Player.cpp.i
+src/classes/Body.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTest.dir\build.make CMakeFiles/FirstTest.dir/src/classes/Body.cpp.i
+.PHONY : src/classes/Body.cpp.i
 
-src/Player.s: src/Player.cpp.s
+src/classes/Body.s: src/classes/Body.cpp.s
 
-.PHONY : src/Player.s
+.PHONY : src/classes/Body.s
 
 # target to generate assembly for a file
-src/Player.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTest.dir\build.make CMakeFiles/FirstTest.dir/src/Player.cpp.s
-.PHONY : src/Player.cpp.s
+src/classes/Body.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTest.dir\build.make CMakeFiles/FirstTest.dir/src/classes/Body.cpp.s
+.PHONY : src/classes/Body.cpp.s
+
+src/classes/Player.obj: src/classes/Player.cpp.obj
+
+.PHONY : src/classes/Player.obj
+
+# target to build an object file
+src/classes/Player.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTest.dir\build.make CMakeFiles/FirstTest.dir/src/classes/Player.cpp.obj
+.PHONY : src/classes/Player.cpp.obj
+
+src/classes/Player.i: src/classes/Player.cpp.i
+
+.PHONY : src/classes/Player.i
+
+# target to preprocess a source file
+src/classes/Player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTest.dir\build.make CMakeFiles/FirstTest.dir/src/classes/Player.cpp.i
+.PHONY : src/classes/Player.cpp.i
+
+src/classes/Player.s: src/classes/Player.cpp.s
+
+.PHONY : src/classes/Player.s
+
+# target to generate assembly for a file
+src/classes/Player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstTest.dir\build.make CMakeFiles/FirstTest.dir/src/classes/Player.cpp.s
+.PHONY : src/classes/Player.cpp.s
 
 src/main.obj: src/main.cpp.obj
 
@@ -232,12 +232,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... FirstTest
-	@echo ... src/Body.obj
-	@echo ... src/Body.i
-	@echo ... src/Body.s
-	@echo ... src/Player.obj
-	@echo ... src/Player.i
-	@echo ... src/Player.s
+	@echo ... src/classes/Body.obj
+	@echo ... src/classes/Body.i
+	@echo ... src/classes/Body.s
+	@echo ... src/classes/Player.obj
+	@echo ... src/classes/Player.i
+	@echo ... src/classes/Player.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

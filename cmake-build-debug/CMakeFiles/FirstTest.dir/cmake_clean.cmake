@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/FirstTest.dir/src/Body.cpp.obj"
-  "CMakeFiles/FirstTest.dir/src/Player.cpp.obj"
+  "CMakeFiles/FirstTest.dir/src/classes/Body.cpp.obj"
+  "CMakeFiles/FirstTest.dir/src/classes/Player.cpp.obj"
   "CMakeFiles/FirstTest.dir/src/main.cpp.obj"
   "FirstTest.exe"
   "FirstTest.exe.manifest"

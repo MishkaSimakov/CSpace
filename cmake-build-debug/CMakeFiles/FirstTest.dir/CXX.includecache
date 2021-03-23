@@ -676,27 +676,25 @@ SFML/Config.hpp
 
 C:/SFML/include/SFML/Window/WindowStyle.hpp
 
-D:/Programs/CLionProjects/FirstTest/src/Body.cpp
-Body.h
-D:/Programs/CLionProjects/FirstTest/src/Body.h
-
-D:/Programs/CLionProjects/FirstTest/src/Body.h
+D:/Programs/CLionProjects/FirstTest/src/classes/Body.h
 SFML/Graphics.hpp
-D:/Programs/CLionProjects/FirstTest/src/SFML/Graphics.hpp
+D:/Programs/CLionProjects/FirstTest/src/classes/SFML/Graphics.hpp
+cmath
+D:/Programs/CLionProjects/FirstTest/src/classes/cmath
 
-D:/Programs/CLionProjects/FirstTest/src/Player.h
+D:/Programs/CLionProjects/FirstTest/src/classes/Player.h
 SFML/Graphics.hpp
-D:/Programs/CLionProjects/FirstTest/src/SFML/Graphics.hpp
+D:/Programs/CLionProjects/FirstTest/src/classes/SFML/Graphics.hpp
 iostream
-D:/Programs/CLionProjects/FirstTest/src/iostream
+D:/Programs/CLionProjects/FirstTest/src/classes/iostream
 
 D:/Programs/CLionProjects/FirstTest/src/main.cpp
 iostream
 D:/Programs/CLionProjects/FirstTest/src/iostream
 SFML/Graphics.hpp
 D:/Programs/CLionProjects/FirstTest/src/SFML/Graphics.hpp
-Body.h
-D:/Programs/CLionProjects/FirstTest/src/Body.h
-Player.h
-D:/Programs/CLionProjects/FirstTest/src/Player.h
+classes/Body.h
+D:/Programs/CLionProjects/FirstTest/src/classes/Body.h
+classes/Player.h
+D:/Programs/CLionProjects/FirstTest/src/classes/Player.h
 

@@ -82,16 +82,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Programs/CLionProjects/FirstTest/src/Body.cpp">
+		<Unit filename="D:/Programs/CLionProjects/FirstTest/src/classes/Body.cpp">
 			<Option target="FirstTest"/>
 		</Unit>
-		<Unit filename="D:/Programs/CLionProjects/FirstTest/src/Body.h">
+		<Unit filename="D:/Programs/CLionProjects/FirstTest/src/classes/Body.h">
 			<Option target="FirstTest"/>
 		</Unit>
-		<Unit filename="D:/Programs/CLionProjects/FirstTest/src/Player.cpp">
+		<Unit filename="D:/Programs/CLionProjects/FirstTest/src/classes/Player.cpp">
 			<Option target="FirstTest"/>
 		</Unit>
-		<Unit filename="D:/Programs/CLionProjects/FirstTest/src/Player.h">
+		<Unit filename="D:/Programs/CLionProjects/FirstTest/src/classes/Player.h">
 			<Option target="FirstTest"/>
 		</Unit>
 		<Unit filename="D:/Programs/CLionProjects/FirstTest/src/main.cpp">
