@@ -3,7 +3,7 @@ project(FirstTest)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(FirstTest src/main.cpp src/classes/Body.cpp src/classes/Body.h src/classes/Player.cpp src/classes/Player.h src/constants.h src/Models.hpp)
+add_executable(FirstTest src/main.cpp src/classes/Body.cpp src/classes/Body.h src/classes/Player.cpp src/classes/Player.h src/constants.h src/Models.h src/Interface.h)
 
 include_directories(C:/SFML/include)
 

@@ -231,7 +231,8 @@ CMakeFiles/FirstTest.dir/src/main.cpp.obj: C:/SFML/include/SFML/Window/VideoMode
 CMakeFiles/FirstTest.dir/src/main.cpp.obj: C:/SFML/include/SFML/Window/Window.hpp
 CMakeFiles/FirstTest.dir/src/main.cpp.obj: C:/SFML/include/SFML/Window/WindowHandle.hpp
 CMakeFiles/FirstTest.dir/src/main.cpp.obj: C:/SFML/include/SFML/Window/WindowStyle.hpp
-CMakeFiles/FirstTest.dir/src/main.cpp.obj: ../src/Models.hpp
+CMakeFiles/FirstTest.dir/src/main.cpp.obj: ../src/Interface.h
+CMakeFiles/FirstTest.dir/src/main.cpp.obj: ../src/Models.h
 CMakeFiles/FirstTest.dir/src/main.cpp.obj: ../src/classes/Body.h
 CMakeFiles/FirstTest.dir/src/main.cpp.obj: ../src/classes/Player.h
 CMakeFiles/FirstTest.dir/src/main.cpp.obj: ../src/constants.h

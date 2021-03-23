@@ -8,7 +8,7 @@
 #include "cmath"
 
 namespace constants {
-    const float G = pow(10, 0);
+    const float G = pow(10, -2);
 
     const float WIDTH = 1000.0f;
     const float HEIGHT = 1000.0f;

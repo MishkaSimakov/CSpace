@@ -12,10 +12,14 @@ using namespace std;
 namespace models {
     Body random_body() {
         sf::Vector2f position;
-        position.x = rand() % (int) constants::WIDTH;
-        position.y = rand() % (int) constants::HEIGHT;
+        position.x = rand() % (int) (constants::WIDTH);
+        position.y = rand() % (int) (constants::HEIGHT);
 
-        Body body(position, sf::Vector2f(0, 0), 10);
+        sf::Vector2f speed;
+        speed.x = (rand() % 21 - 10) / 5;
+        speed.y = (rand() % 21 - 10) / 5;
+
+        Body body(position, speed, 10);
 
         return body;
     }
@@ -40,6 +44,15 @@ namespace models {
         planets.push_back(sun);
         planets.push_back(earth);
         planets.push_back(moon);
+
+        return planets;
+    }
+
+    vector<Body> black_hole(int count = 100, float mass = pow(10, 5)) {
+        vector<Body> planets = random(count);
+
+        Body hole(sf::Vector2f(-1000, -1000), sf::Vector2f(0, 0), mass);
+        planets.push_back(hole);
 
         return planets;
     }

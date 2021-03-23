@@ -232,7 +232,8 @@ CMakeFiles/FirstTest.dir/src/main.cpp.obj
  C:/SFML/include/SFML/Window/Window.hpp
  C:/SFML/include/SFML/Window/WindowHandle.hpp
  C:/SFML/include/SFML/Window/WindowStyle.hpp
- D:/Programs/CLionProjects/FirstTest/src/Models.hpp
+ D:/Programs/CLionProjects/FirstTest/src/Interface.h
+ D:/Programs/CLionProjects/FirstTest/src/Models.h
  D:/Programs/CLionProjects/FirstTest/src/classes/Body.h
  D:/Programs/CLionProjects/FirstTest/src/classes/Player.h
  D:/Programs/CLionProjects/FirstTest/src/constants.h
