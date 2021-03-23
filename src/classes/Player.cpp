@@ -13,19 +13,19 @@ void Player::ChangeZoom(sf::Event &event) {
     if (event.mouseWheelScroll.wheel == sf::Mouse::VerticalWheel)
         zoom = std::max(
                 1.0f,
-                zoom + event.mouseWheelScroll.delta * ZOOM_SPEED
+                zoom + event.mouseWheelScroll.delta * constants::ZOOM_SPEED
         );
 }
 
 void Player::Update(float deltaTime) {
     if (sf::Keyboard::isKeyPressed(sf::Keyboard::D))
-        speed.x = MOVEMENT_SPEED;
+        speed.x = constants::MOVEMENT_SPEED;
     if (sf::Keyboard::isKeyPressed(sf::Keyboard::A))
-        speed.x = -MOVEMENT_SPEED;
+        speed.x = -constants::MOVEMENT_SPEED;
     if (sf::Keyboard::isKeyPressed(sf::Keyboard::S))
-        speed.y = MOVEMENT_SPEED;
+        speed.y = constants::MOVEMENT_SPEED;
     if (sf::Keyboard::isKeyPressed(sf::Keyboard::W))
-        speed.y = -MOVEMENT_SPEED;
+        speed.y = -constants::MOVEMENT_SPEED;
 
 
     if (speed.x != 0) {

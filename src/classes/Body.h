@@ -7,8 +7,7 @@
 
 #include "SFML/Graphics.hpp"
 #include "cmath"
-
-const float G = pow(10, 0);
+#include "../constants.h"
 
 
 class Body {
@@ -20,7 +19,9 @@ public:
 
     //    getters
     sf::Vector2f getPosition() { return shape.getPosition(); };
+    float getRadius() { return shape.getRadius(); };
     sf::Vector2f getAcceleration() { return acceleration; };
+    sf::Vector2f getSpeed() { return speed; };
     float getMass() { return mass; };
 
     //    setters
@@ -32,9 +33,8 @@ public:
                 pow(getPosition().y - other.getPosition().y, 2)
         );
     };
+    Body Merge(Body& other);
     void CountAcceleration(Body &other);
-
-
 
 protected:
     sf::CircleShape shape;

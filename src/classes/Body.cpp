@@ -21,18 +21,25 @@ void Body::Update(float deltaTime) {
     sf::Vector2f movement;
     movement = speed * deltaTime;
     shape.move(movement);
-
-//    std::cout << getPosition().x - movement.x << " " << getPosition().y - movement.y << std::endl;
 }
 
 void Body::Draw(sf::RenderWindow &window) {
     window.draw(shape);
 }
 
-void Body::CountAcceleration(Body& other) {
-    float distance_cube = pow(Distance(other), 3);
+Body Body::Merge(Body& other) {
+    sf::Vector2f position = (getPosition() + other.getPosition()) / 2.0f;
+    sf::Vector2f spd = (getSpeed() * getMass() + other.getSpeed() * other.getMass()) / (getMass() + other.getMass());
 
-    sf::Vector2f force = G * (other.getPosition() - getPosition()) / distance_cube;
+    Body merged(position, spd, getMass() + other.getMass());
+
+    return merged;
+}
+
+void Body::CountAcceleration(Body& other) {
+    float distance = Distance(other);
+
+    sf::Vector2f force = constants::G * (other.getPosition() - getPosition()) / (float)pow(distance, 3);
 
     sf::Vector2f a = getAcceleration() + force * other.getMass();
     setAcceleration(a);

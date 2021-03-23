@@ -82,6 +82,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/Programs/CLionProjects/FirstTest/src/Models.hpp">
+			<Option target="FirstTest"/>
+		</Unit>
 		<Unit filename="D:/Programs/CLionProjects/FirstTest/src/classes/Body.cpp">
 			<Option target="FirstTest"/>
 		</Unit>
@@ -92,6 +95,9 @@
 			<Option target="FirstTest"/>
 		</Unit>
 		<Unit filename="D:/Programs/CLionProjects/FirstTest/src/classes/Player.h">
+			<Option target="FirstTest"/>
+		</Unit>
+		<Unit filename="D:/Programs/CLionProjects/FirstTest/src/constants.h">
 			<Option target="FirstTest"/>
 		</Unit>
 		<Unit filename="D:/Programs/CLionProjects/FirstTest/src/main.cpp">

@@ -77,6 +77,7 @@ CMakeFiles/FirstTest.dir/src/Classes/Body.cpp.obj: C:/SFML/include/SFML/Window/W
 CMakeFiles/FirstTest.dir/src/Classes/Body.cpp.obj: C:/SFML/include/SFML/Window/WindowStyle.hpp
 CMakeFiles/FirstTest.dir/src/Classes/Body.cpp.obj: ../src/classes/Body.cpp
 CMakeFiles/FirstTest.dir/src/Classes/Body.cpp.obj: ../src/classes/Body.h
+CMakeFiles/FirstTest.dir/src/Classes/Body.cpp.obj: ../src/constants.h
 
 CMakeFiles/FirstTest.dir/src/Classes/Player.cpp.obj: C:/SFML/include/SFML/Config.hpp
 CMakeFiles/FirstTest.dir/src/Classes/Player.cpp.obj: C:/SFML/include/SFML/Graphics.hpp
@@ -154,6 +155,7 @@ CMakeFiles/FirstTest.dir/src/Classes/Player.cpp.obj: C:/SFML/include/SFML/Window
 CMakeFiles/FirstTest.dir/src/Classes/Player.cpp.obj: C:/SFML/include/SFML/Window/WindowStyle.hpp
 CMakeFiles/FirstTest.dir/src/Classes/Player.cpp.obj: ../src/classes/Player.cpp
 CMakeFiles/FirstTest.dir/src/Classes/Player.cpp.obj: ../src/classes/Player.h
+CMakeFiles/FirstTest.dir/src/Classes/Player.cpp.obj: ../src/constants.h
 
 CMakeFiles/FirstTest.dir/src/main.cpp.obj: C:/SFML/include/SFML/Config.hpp
 CMakeFiles/FirstTest.dir/src/main.cpp.obj: C:/SFML/include/SFML/Graphics.hpp
@@ -229,7 +231,9 @@ CMakeFiles/FirstTest.dir/src/main.cpp.obj: C:/SFML/include/SFML/Window/VideoMode
 CMakeFiles/FirstTest.dir/src/main.cpp.obj: C:/SFML/include/SFML/Window/Window.hpp
 CMakeFiles/FirstTest.dir/src/main.cpp.obj: C:/SFML/include/SFML/Window/WindowHandle.hpp
 CMakeFiles/FirstTest.dir/src/main.cpp.obj: C:/SFML/include/SFML/Window/WindowStyle.hpp
+CMakeFiles/FirstTest.dir/src/main.cpp.obj: ../src/Models.hpp
 CMakeFiles/FirstTest.dir/src/main.cpp.obj: ../src/classes/Body.h
 CMakeFiles/FirstTest.dir/src/main.cpp.obj: ../src/classes/Player.h
+CMakeFiles/FirstTest.dir/src/main.cpp.obj: ../src/constants.h
 CMakeFiles/FirstTest.dir/src/main.cpp.obj: ../src/main.cpp
 

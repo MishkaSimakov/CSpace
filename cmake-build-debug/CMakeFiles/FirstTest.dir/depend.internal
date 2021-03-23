@@ -78,6 +78,7 @@ CMakeFiles/FirstTest.dir/src/Classes/Body.cpp.obj
  C:/SFML/include/SFML/Window/WindowStyle.hpp
  D:/Programs/CLionProjects/FirstTest/src/classes/Body.cpp
  D:/Programs/CLionProjects/FirstTest/src/classes/Body.h
+ D:/Programs/CLionProjects/FirstTest/src/constants.h
 CMakeFiles/FirstTest.dir/src/Classes/Player.cpp.obj
  C:/SFML/include/SFML/Config.hpp
  C:/SFML/include/SFML/Graphics.hpp
@@ -155,6 +156,7 @@ CMakeFiles/FirstTest.dir/src/Classes/Player.cpp.obj
  C:/SFML/include/SFML/Window/WindowStyle.hpp
  D:/Programs/CLionProjects/FirstTest/src/classes/Player.cpp
  D:/Programs/CLionProjects/FirstTest/src/classes/Player.h
+ D:/Programs/CLionProjects/FirstTest/src/constants.h
 CMakeFiles/FirstTest.dir/src/main.cpp.obj
  C:/SFML/include/SFML/Config.hpp
  C:/SFML/include/SFML/Graphics.hpp
@@ -230,6 +232,8 @@ CMakeFiles/FirstTest.dir/src/main.cpp.obj
  C:/SFML/include/SFML/Window/Window.hpp
  C:/SFML/include/SFML/Window/WindowHandle.hpp
  C:/SFML/include/SFML/Window/WindowStyle.hpp
+ D:/Programs/CLionProjects/FirstTest/src/Models.hpp
  D:/Programs/CLionProjects/FirstTest/src/classes/Body.h
  D:/Programs/CLionProjects/FirstTest/src/classes/Player.h
+ D:/Programs/CLionProjects/FirstTest/src/constants.h
  D:/Programs/CLionProjects/FirstTest/src/main.cpp

@@ -7,9 +7,7 @@
 
 #include "SFML/Graphics.hpp"
 #include "iostream"
-
-const float MOVEMENT_SPEED = 5;
-const float ZOOM_SPEED = -0.25;
+#include "../constants.h"
 
 class Player {
 public:
